@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img{
+  width: 150px;
+  height: 80px;
+}
+.tit
+{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.links
+{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+.links .active{
+  color: orange;
+  font-size: 30px;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.text{
+  margin-left: 10px;
+}
+.mate
+{
+  color: red;
+}
+.name
+{
+  display: inline;
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.forms {
+    text-align: center;
+}
+
+.forms form {
+    width: 40%;
+    margin: 40px auto;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.forms input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.forms label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.submitButton {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.title {
+    border-bottom: 2px solid red;
+    display: inline-block;
+}
+
+.back-btn{
+    padding: 5px;
+    border-radius: 12px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.back-btn:hover
+{
+    background-color: red;
+    cursor: pointer;
+}

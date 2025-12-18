@@ -1,0 +1,13 @@
+import { Navigate } from "react-router-dom";
+
+const AdminRoute = ({ children }) => {
+  const isAdmin = localStorage.getItem("admin") === "true";
+
+  if (!isAdmin) {
+    return <Navigate to="/" />;
+  }
+
+  return children;
+};
+
+export default AdminRoute;

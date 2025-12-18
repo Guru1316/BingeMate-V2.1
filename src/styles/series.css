@@ -1,0 +1,169 @@
+.series 
+{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.series1
+{
+    width: 90%;
+    margin: 30px auto;
+    border: 3px solid red;
+    padding: 30px 30px 0px 30px;
+    border-radius: 5px;
+}
+
+.gridContainer img 
+{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.content-container 
+{
+    display: flex;
+    gap: 40px; 
+}
+
+.series-card1 
+{
+    width: 300px; 
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 66);
+}
+
+.series-card1 img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+.series-details 
+{
+    flex: 1; 
+}
+
+.series-details h1 
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.meta-data 
+{
+    margin-bottom: 15px;
+}
+
+.genres-list 
+{
+    margin-bottom: 20px;
+}
+
+.genre-badge 
+{
+    display: inline-block;
+    background-color: rgb(41, 41, 41);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 1px solid gray;
+}
+
+.series-details h2 
+{
+    margin-bottom: 10px;
+    border-bottom: 2px solid red; 
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.series-details p 
+{
+    line-height: 1.6;
+}
+
+.action-buttons
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.btn
+{
+    background-color: green;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 12px;
+    padding: 10px;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.back-btn{
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
+
+.ds
+{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.di
+{
+    width: 150px;
+}
+
+.dim
+{
+    width: 100%;
+    border-radius: 8px; 
+    cursor:pointer;
+}
+
+.dc
+{
+    flex: 1;
+}
+
+.dhh
+{
+    margin-bottom: 10px;
+}
+
+.dpw
+{
+    color: #aaa;
+    margin-bottom: 8px; 
+}
+
+.dpr
+{
+    margin-bottom: 8px;
+}
+
+.dpre
+{
+    line-height: 1.6;
+}
