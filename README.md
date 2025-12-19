@@ -4,7 +4,7 @@
 
 Built with **React.js (Vite)**, it features a custom local authentication system and persists all user data (watchlists, logs, sessions) using LocalStorage, offering a seamless "Letterboxd-like" experience for television shows.
 
-🔗 **Live Demo:** [https://guru1316.github.io/BingeMate-V2/](https://guru1316.github.io/BingeMate-V2/)
+🔗 **Live Demo:** [https://guru1316.github.io/BingeMate-V2.1/](https://guru1316.github.io/BingeMate-V2.1/)
 
 ---
 
@@ -50,8 +50,8 @@ Follow these steps to set up the project locally on your machine.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/Guru1316/BingeMate-V2.git](https://github.com/Guru1316/BingeMate-V2.git)
-    cd BingeMate-V1.1
+    git clone [https://github.com/Guru1316/BingeMate-V2.1.git](https://github.com/Guru1316/BingeMate-V2.1.git)
+    cd BingeMate-V2.1
     ```
 
 2.  **Install dependencies**
@@ -76,7 +76,7 @@ This project is configured for deployment on **GitHub Pages**.
 1.  **Update `vite.config.js`**:
     Ensure the base path matches your repository name:
     ```js
-    base: "/BingeMate-V1.2/",
+    base: "/BingeMate-V2.1/",
     ```
 
 2.  **Build and Deploy**:
@@ -96,9 +96,9 @@ This project is configured for deployment on **GitHub Pages**.
 
 ## 👤 Author
 
-**GuruPrasad**
+**GuruPrasad K**
 * GitHub: [@Guru1316](https://github.com/Guru1316)
-* LinkedIn: [Guruprasad](https://www.linkedin.com/in/guruprasad-k-713994314/)
+* LinkedIn: [Guruprasad K](https://www.linkedin.com/in/guruprasad-k-713994314/)
 
 ---
 
